@@ -1,0 +1,59 @@
+body {
+    background-color: #666;
+    background-size: auto;
+}
+
+.mainBox {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginBox {
+    width: 500px;
+    text-align: "right";
+}
+
+.inputBox {
+    width:400px;
+    margin: 0 auto;
+}
+
+input {
+    width: 100px;
+}
+
+.numpad {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px 75px 20px 75px;
+}
+
+.num {
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+}
+
+.numbutton {
+    font-size: 28px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
